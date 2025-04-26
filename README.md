@@ -1,6 +1,8 @@
-# Bare on Android
+# Agregore Mobile Lite
 
-Example of embedding Bare in an Android application using <https://github.com/holepunchto/bare-kit>.
+This is a proof of concept based on [bare-android](https://github.com/holepunchto/bare-android) for loading p2p websites on mobile.
+
+Enter `hyper://` URLs and have them load / cache them for local usage. Note that DNS is not currently cached for offline use.
 
 ## Building
 

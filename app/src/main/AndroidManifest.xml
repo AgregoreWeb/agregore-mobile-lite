@@ -1,16 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
   <uses-permission android:name="android.permission.INTERNET"/>
-  <application>
-    <activity android:name=".MainActivity" android:exported="true">
+  <application
+      android:usesCleartextTraffic="true"
+      android:label="Agregore Lite">
+    <activity
+        android:name=".MainActivity"
+        android:label="Agregore Lite Webview"
+        android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <service android:name=".MessagingService" android:exported="false">
-      <intent-filter>
-        <action android:name="com.google.firebase.MESSAGING_EVENT" />
-      </intent-filter>
-    </service>
   </application>
 </manifest>
